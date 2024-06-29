@@ -1,0 +1,11 @@
+abhineec
+
+TestCase1
+Hamiltonian Cycle
+0 1 2 3 0 
+Length
+9.972129467002565
+Optimum Path
+0 2 3 1 0 
+Length
+9.499048743818797

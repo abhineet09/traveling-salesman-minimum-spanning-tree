@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<kml
+	xmlns="http://earth.google.com/kml/2.2">
+	<Document>
+		<name>Pittsburgh TSP</name>
+		<description>TSP on Crime</description>
+		<Style id="style6">
+			<LineStyle>
+				<color>73FF0000</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="style5">
+			<LineStyle>
+				<color>507800F0</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Placemark>
+			<name>TSP Path</name>
+			<description>TSP Path</description>
+			<styleUrl>#style6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+-79.9760891,40.40865518,
+-79.9760891,40.40865518,
+-79.93653583,40.44013011,
+-79.94764804,40.46107271,
+-79.93085611,40.46389868,
+-79.9760891,40.40865518</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Optimal Path</name>
+			<description>Optimal Path</description>
+			<styleUrl>#style5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+-79.9760891,40.40865518,
+-79.9760891,40.40865518,
+-79.94764804,40.46107271,
+-79.93085611,40.46389868,
+-79.93653583,40.44013011,
+-79.9760891,40.40865518,
+-79.9760891,40.40865518</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>
